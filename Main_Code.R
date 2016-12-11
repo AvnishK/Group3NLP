@@ -15,7 +15,7 @@ score.sentiments = function(sentences, pos.words, neg.words, .progress='none')
   require(stringr)
   
   # we got a vector of sentences. plyr will handle a list or a vector as an "l" for us
-  # we want a simple array of scores back, so we use "l" + "a" + "ply" = laply:
+ 
   scores = laply(sentences, function(sentence, pos.words, neg.words) {
     
     # clean up sentences with R's regex-driven global substitute, gsub():
