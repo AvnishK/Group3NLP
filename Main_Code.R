@@ -57,7 +57,7 @@ options(httr_oauth_cache=TRUE) # skip question appearing on console
 setup_twitter_oauth(consumer_key = consumerKey, consumer_secret = consumerSecret,
                     access_token = accessToken, access_secret = accessSecret)
 
-tweets <- searchTwitter('#abortion', n=1000, lang='en')
+tweets <- searchTwitter('#DonaldTrump', n=1000, lang='en')
 length(tweets)
 
 tweets.txt = laply(tweets,function(t)t$getText())
