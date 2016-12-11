@@ -7,7 +7,6 @@ Words are classified into postive and negative with the help of Wordbank
 
 References:
 
-Github repositories,
 Stack Overflow,
 Google.
 
